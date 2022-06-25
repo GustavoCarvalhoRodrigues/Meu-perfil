@@ -65,3 +65,25 @@ section > h1{
     padding: 125px;
     position: absolute;
 }
+footer{
+    background-color: #000c33;
+    margin: 26px;
+    margin-left: -9px;
+    margin-bottom: -9px;
+    margin-right: -10px;
+    padding-bottom: 8px;
+    padding-top: 20px;
+    color: chartreuse;
+    text-align: center;
+}
+ul{
+    text-align: left;
+}
+a::before{
+    content: '↪';
+color: chartreuse;
+padding: 5px;
+}
+strong{
+color: crimson;
+}

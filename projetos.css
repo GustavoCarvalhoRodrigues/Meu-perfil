@@ -24,20 +24,23 @@ div.projetos{
     margin-left: 50px;
 }
 div#android{
-    background-image: url('imagem/bugdroid.png');
+    background-image: url('imagem/logo\ android\ gif.gif');
     background-color: #33327c98;
-    background-repeat: no-repeat;
+    background-repeat: round;
+    background-size: 300px;
 
 }
 div#marvel{
     float: inline-start;
-    background-image: url('imagem/thor.png');
+    background-image: url('imagem/logo\ marvel\ gif.webp');
     background-color: #33327c98;
 }
 div#calculadora{
     float: right;
-    background-image: url('imagem/imagem-calculadora.jpg');
+    background-image: url('imagem/calculadora\ logo\ gif.gif');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 398px;
     margin-right: 279px;
 }
  
