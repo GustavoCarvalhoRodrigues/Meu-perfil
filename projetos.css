@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body{
+    font: italic bolder 18px Arial, helvetica, sans-serif;
+    background-image: linear-gradient(to left, #33327c98, #000c23);
+    background-repeat: repeat;
+    background-size: 1373px;
+    width: 100%;
+    height: 100%;
+}
+header > h1{
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(bottom,#00249b 50%, chartreuse 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+div.projetos{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+div#android{
+    background-image: url('imagem/bugdroid.png');
+    background-color: #33327c98;
+    background-repeat: no-repeat;
+
+}
+div#marvel{
+    float: inline-start;
+    background-image: url('imagem/thor.png');
+    background-color: #33327c98;
+}
+div#calculadora{
+    float: right;
+    background-image: url('imagem/imagem-calculadora.jpg');
+    background-repeat: no-repeat;
+    margin-right: 279px;
+}
+ 
+div.retorno{
+    display: block;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: 40px;
+}
+h2{
+    display: inline-block;
+    margin-left: 3px;
+    background: -webkit-linear-gradient(bottom,yellow 50%, blue 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+a:hover{
+   background-color: #000c23;
+    border-radius: 25%;
+}

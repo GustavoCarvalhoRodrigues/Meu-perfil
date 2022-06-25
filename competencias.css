@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: black;
+
+    
+}
+h1{
+       text-align: center;
+       font-size: 50px;
+       background: -webkit-linear-gradient(bottom,#021f80 50%, chartreuse 50%);
+       -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+}
+ol{
+    display: block;
+    background-color: blue;
+    color: chartreuse;
+    border: 1px solid royalblue;
+    border-radius: 15%;
+    margin: auto;
+    list-style-type: decimal;
+    list-style-position: outside;
+    columns: 2;
+    width: 464px;
+    height: 300px;
+    padding-top: 40px;
+}
+ol:hover{
+    background-image: url('imagem/giphy.gif');
+    background-position: center;
+    background-repeat: repeat;
+}
+ol > li{
+    margin-top: 26px;
+    padding-top: 40px;
+}
+p{
+    text-align: justify;
+    background-color: blue;
+    color: chartreuse;
+    border-radius: 48px;
+    float: right;
+    padding-top: 20px;
+    margin: -350px;
+    margin-right: 102px;
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 403px;
+    height: 83px;
+}
+div > img{
+    margin: 5px;
+    background-color: transparent;
+    margin-left: 10px;
+    border-radius: -11px;
+}
